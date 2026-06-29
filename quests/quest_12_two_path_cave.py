@@ -2,7 +2,7 @@
 
 password = input("Enter the password: ")
 
-if password == "secret123":
+if password == "Secret123":
     print("Access Granted")
 else:
     print("Access Denied")
