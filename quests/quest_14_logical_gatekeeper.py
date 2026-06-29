@@ -6,5 +6,7 @@ gold = int(input("Enter how much gold you have: "))
 
 if age >= 18 and gold >= 20:
     print("You may enter the club.")
+elif age < 18 and gold < 20:
+    print("Not allowed in the club.")
 else:
     print("You cannot enter the club.")
