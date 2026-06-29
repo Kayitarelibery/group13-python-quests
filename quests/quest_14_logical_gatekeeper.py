@@ -1,11 +1,10 @@
-#!usr/bin/env python3
+# Quest 14: The Logical Gatekeeper
+# Goal: use "and" to check two conditions at once
 
 age = int(input("Enter your age: "))
-gold = int(input("Enter your gold coins: "))
+gold = int(input("Enter how much gold you have: "))
 
 if age >= 18 and gold >= 20:
     print("You may enter the club.")
-elif age < 18 and gold < 20:
-    print("You cannot enter the club.")
 else:
-    print("Invalid input")
+    print("You cannot enter the club.")
